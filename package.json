@@ -4,6 +4,7 @@
   "description": "PaginaWebJS",
   "main": "index.html",
   "scripts": {
+    "dev": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -12,5 +13,8 @@
   },
   "author": "Diego Eusse",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/diegoeusse/webpagerepo#readme"
+  "homepage": "https://bitbucket.org/diegoeusse/webpagerepo#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
 }
