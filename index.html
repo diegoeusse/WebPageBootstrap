@@ -1,32 +1,133 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <!-- Required meta tags -->
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-    <title>Hello, world!</title>
+    <title>Herramientas de Colombia</title>
 </head>
 
 <body>
-    <h1>Hello, world!</h1>
 
-    <!-- Optional JavaScript; choose one of the two! -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Herramientas de Colombia</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Catálogos
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Tornillos</a></li>
+                        <li><a href="#">Tuercas</a></li>
+                        <li><a href="#">Láminas</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Proveedores
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Proveedor 1</a></li>
+                        <li><a href="#">Proveedor 2</a></li>
+                        <li><a href="#">Proveedor 3</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            </ul>
+        </div>
+    </nav>
 
-    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <div style="text-align:center" class="jumbotron">
+        <h1>Herramientas de Colombia</h1>
+        <p>Tu mejor aliado en la compra de maquinaria y herramientas en todo el
+            territorio nacional.</p>
+        <i>¡100% colombiano, 100% confiable!</i>
+    </div>
+
+    <form class="form-wrapper cf">
+        <input type="text" placeholder="¿Qué estás buscando?" required>
+        <button type="submit">Buscar</button>
+    </form>
+
+    <div class="container">
+        <div class="row">
+            <div class="column">
+                <div>
+                    <h3> ¿Buscas catálogos? </h3>
+                    <p> Accede a la gran cantidad de catálogos ofrecidos por la industria colombiana.</p>
+                </div>
+                <div>
+                    <button class="btn"> Catálogos </button>
+                </div>
+            </div>
+            <div class="column">
+                <div>
+                    <h3> ¿Quieres conocer de dónde provienen nuestras herramientas? </h3>
+                    <p> Obtén información sobre quiénes son nuestros proveedores.</p>
+                </div>
+                <div>
+                    <button class="btn"> Proveedores </button>
+                </div>
+            </div>
+            <div class="column">
+                <div>
+                    <h3> ¿Quieres mostrar tu catálogo y hacer parte de nuestra comunidad? </h3>
+                    <p> Contáctanos y conoce acerca de nosotros.</p>
+                </div>
+                <div>
+                    <button class="btn"> Contáctanos </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="row">
+            <div class="col-sm-4 d-flex flex-column">
+                <a href="www.facebook.com">Facebook</a>
+                <a href="www.twitter.com">Twitter</a>
+                <a href="www.instagram.com">Instagram</a>
+                <a href="www.google.com">Google+</a>
+            </div>
+
+            <div class="col-sm-4">
+                <address>
+                    Cra 81 # 6A 58 704.
+                    Medellin, Colombia, Sudamérica
+                    Teléfono: (+57)3002297826
+                    deussen@unal.edu.co
+                </address>
+            </div>
+
+            <div class="col-sm-4 d-flex flex-column">
+                <a href="www.facebook.com">Contacto</a>
+                <a href="www.twitter.com">Proveedores</a>
+                <a href="www.instagram.com">Términos y condiciones</a>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- Optional JavaScript-->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/popper.js/dist/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
-    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.3/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
-    -->
 </body>
 
 </html>
