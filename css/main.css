@@ -9,7 +9,7 @@
     width:60%;
     position: center;
     left: 0;
-    align-self: flex-end;
+    margin-top: auto;
 }
 
 .footer{
@@ -179,5 +179,35 @@ a {
     flex-basis: 100%;
     flex: 1 150px;
     padding: 2px 5px 2px 5px;
+    margin-bottom:0;
 }
 
+.top-left { 
+    top: 0; 
+    left: 0; 
+} 
+  
+.top-center { 
+    top: 0; 
+    left: 50%; 
+} 
+  
+.top-right { 
+    top: 0; 
+    right: 0; 
+} 
+  
+.bottom-left { 
+    bottom: 0; 
+    left: 0; 
+} 
+  
+.bottom-center { 
+    bottom: 0; 
+    left: 50%; 
+} 
+  
+.bottom-right { 
+    bottom: 0; 
+    right: 0; 
+} 
