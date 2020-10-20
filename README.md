@@ -1,30 +1,13 @@
 # README #
-This is my first commit 
-
-This README would normally document whatever steps are necessary to get your application up and running.
+This project contains all the scripts and codes of the design of my first web page. I decided to focus my webpage in my expertise area: mechanical engineering, so i built a webpage for selling mechanical machines and parts. 
 
 ### What is this repository for? ###
-
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+This repository stores all the versions of my web page design. 
 
 ### How do I get set up? ###
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+* To run and visualize the web page, the user should have node.js already installed.
+* As soon as node.js is installed, the user should clone the repository: 'git clone https://github.com/diegoeusse/WebPageBootstrap' via cmd or git bash.
+* Then, the user should install all the project dependencies, via npm install.
+* Finally, to run the wep-page-code, the user just has run 'npm run dev' via cmd or git bash.
+* The resulting design should be shown in the user's browser.
