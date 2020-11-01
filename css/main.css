@@ -27,10 +27,10 @@
 
 .footer{
     color: black;
-    padding: 30px 10px 10px;
+    padding: 2px 2px 2px 2px;
     background-color: orange;
     margin-bottom: 0px;
-    margin-top: 40px;
+    margin-top: 10px;
     text-align: center;
     display: flex;
 }
@@ -182,11 +182,12 @@ body {
     flex-wrap: wrap;
     width: 100%;
 }
-  
+
 .column {
     display: flex;
     flex-direction: column;
     flex-basis: 100%;
+    flex-wrap: wrap;
     flex: 1 150px;
     padding: 2px 5px 2px 5px;
     margin-bottom:0;
@@ -196,4 +197,50 @@ body {
     flex: 1 150px;
     padding: 2px 2px 2px 2px;
 }
+
+.footer-address-icon{
+    padding-right: 10px;
+    align-items: center;
+    color: black;
+    padding: 2px 2px 2px 2px;
+}
+
+.media-icon{
+    padding-right: 10px;
+    align-items: center;
+    color: black;
+    padding: 20px 20px 20px 20px;
+}
+
+.column-footer{
+    flex: 1 150px;
+    padding: 5px 5px 2px 100px;
+    color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+}
+
+.column-footer2{
+    flex: 1 150px;
+    padding: 5px 5px 2px 100px;
+    color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+}
+
+.footer-link{
+    padding-right: 10px;
+    align-items: center;
+    color: black;
+    padding: 20px 20px 20px 20px;
+}
+
 
