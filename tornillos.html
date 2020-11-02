@@ -10,20 +10,22 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-    <title>Deuss - Tornillos</title>
+    <title>Tornillos - Herratic</title>
 </head>
 
 <body>
 
     <nav class="navbar navbar-dark bg-dark navbar-expand-md navbar-inverse navbar-fixed-top">
-        <a class="navbar-brand" href="./index.html">Deuss</a>
+        <a class="navbar-brand" href="./index.html">HerraTic</a>
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav mr-auto">
-                <li class="nav-item"><a href="./index.html">Home</a></li>
-                <li class="dropdown">
+                <li class="nav-item"><a href="./index.html">Inicio</a></li>
+                <li class="dropdown active">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">Catálogos
                         <span class="caret"></span></a>
                     <ul class="dropdown-menu">
@@ -41,7 +43,9 @@
                         <li class="nav-item"><a class="nav-link" href="#">Proveedor 3</a></li>
                     </ul>
                 </li>
+                <li class="nav-item"><a href="./formulario.html">Contacto</a></li>
             </ul>
+
             <ul class="nav navbar-nav navbar-right">
                 <li class="nav-item"><a class="nav-link" href="#"><span class="glyphicon glyphicon-user"></span> Sign
                         Up</a></li>
@@ -58,67 +62,67 @@
         <i>¡100% colombiano, 100% confiable!</i>
     </div>
 
-    <form class="form-wrapper cf">
-        <input type="text" placeholder="¿Qué estás buscando?" required>
-        <button type="submit">Buscar</button>
-    </form>
-
-    <div class="container">
-        <div class="row">
-            <div class="column">
-                <div class="section">
-                    <h3> ¿Buscas catálogos? </h3>
-                    <p> Accede a la gran cantidad de catálogos ofrecidos por la industria colombiana.</p>
-                </div>
-                <div class="position-absolute">
-                    <button type="button" class="btn btn-primary"> Catálogos </button>
-                </div>
+    <div class="row">
+        <div class="card column">
+            <div class="card-body">
+                <h4 class="card-title">Importadora Colombiana de Tornillos</h4>
+                <img class="img-card-bot" src="Imágenes/Imporcol.png" alt="Imporcol logo"
+                    style="width:300px;height:150px;">
+                <p class="card-text">Imporcol - Tenjo, Cundinamarca</p>
             </div>
-            <div class="column">
-                <div class="section">
-                    <h3> ¿Quieres conocer de dónde provienen nuestras herramientas? </h3>
-                    <p> Obtén información sobre quiénes son nuestros proveedores.</p>
-                </div>
-                <div class="position-absolute bot-center">
-                    <button type="button" class="btn btn-primary"> Proveedores </button>
-                </div>
-            </div>
-            <div class="column">
-                <div class="section">
-                    <h3> ¿Quieres mostrar tu catálogo y hacer parte de nuestra comunidad? </h3>
-                    <p> Contáctanos y conoce acerca de nosotros.</p>
-                </div>
-                <div class="position-absolute bot-right">
-                    <button type="button" class="btn btn-primary"> Contáctanos </button>
-                </div>
+            <div>
+                <a href="./Catalogos/Tornillos/Imporcol1.pdf"><button type="button" class="btn btn-primary"> Abrir
+                        Catálogo </button></a>
             </div>
         </div>
+        <div class="card column">
+            <div class="card-body">
+                <h4 class="card-title">Fabricaciones Electromecánicas</h4>
+                <img class="img-card-bot" src="Imágenes/FEM.png" alt="Imporcol logo" style="width:150px;height:150px;">
+                <p class="card-text">Fem S.A.S - Bogotá, Cundinamarca</p>
+            </div>
+            <div>
+                <a href="./Catalogos/Tornillos/FEM1.pdf"><button type="button" class="btn btn-primary"> Abrir
+                        Catálogo </button></a>
+            </div>
+        </div>
+        <div class="card column">
+            <div class="card-body">
+                <h4 class="card-title">Tornillos y Partes S.A.</h4>
+                <img class="img-card-bot" src="Imágenes/TyP.png" alt="Imporcol logo" style="width:170px;height:150px;">
+                <p class="card-text">TyP S.A. - Bogotá, Cundinamarca</p>
+            </div>
+            <div>
+                <a href="./Catalogos/Tornillos/TyP1.pdf"><button type="button" class="btn btn-primary"> Abrir
+                        Catálogo </button></a>
+            </div>
+        </div>
+
     </div>
 
     <footer class="footer">
         <div class="row">
-            <div class="column">
-                <a href="www.facebook.com">Facebook</a>
-                <a href="www.twitter.com">Twitter</a>
-                <a href="www.instagram.com">Instagram</a>
-                <a href="www.google.com">Google+</a>
+            <div class="column column-footer">
+                <a href="www.facebook.com"><i class="fa fa-facebook-square media-icon" style="font-size:24px"></i></a>
+                <a href="www.twitter.com"><i class="fa fa-twitter media-icon" style="font-size:24px"></i></a>
+                <a href="www.instagram.com"><i class="fa fa-instagram media-icon" style="font-size:24px"></i></a>
+                <a href="www.google.com"><i class="fa fa-google-plus media-icon" style="font-size:24px"></i></a>
             </div>
 
             <div class="column">
                 <address>
                     <h3>Oficina Central</h3>
                     <p>Cra 81 # 6A 58 704.</p>
-                    <p>Medellin, Colombia, Sudamérica</p>
-                    <p><span class="iconic iconic-iphone" title="iphone" aria-hidden="true"></span>Teléfono:
-                        (+57)3002297826</p>
-                    <p>deussen@unal.edu.co</p>
+                    <p><span class="oi oi-phone footer-address-icon"></span>(+57)3002297826</p>
+                    <p><span class="oi oi-envelope-closed footer-address-icon"></span>deussen@unal.edu.co</p>
+                    <p><span class="oi oi-flag footer-address-icon"></span>Medellin, Colombia, Sudamérica</p>
                 </address>
             </div>
 
             <div class="column">
-                <a href="www.facebook.com">Contacto</a>
-                <a href="www.twitter.com">Proveedores</a>
-                <a href="www.instagram.com">Términos y condiciones</a>
+                <a class="footer-link" href="./formulario.html">Contacto</a>
+                <a class="footer-link" href="./proveedores.html">Proveedores</a>
+                <a class="footer-link" href="#">Términos y condiciones</a>
             </div>
         </div>
 
