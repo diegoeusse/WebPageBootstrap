@@ -15,27 +15,27 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-    <title>HerraTic</title>
+    <title>Proveedores - TooList</title>
 </head>
 
 <body>
 
     <nav class="navbar navbar-dark bg-dark navbar-expand-md navbar-inverse navbar-fixed-top">
-        <a class="navbar-brand" href="./index.html">HerraTic</a>
+        <a class="navbar-brand" href="./index.php">TooList</a>
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav mr-auto">
-                <li class="nav-item active"><a href="./index.html">Inicio</a></li>
+                <li class="nav-item"><a href="./index.php">Inicio</a></li>
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">Catálogos
                         <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li class="nav-item"><a class="nav-link" href="./tornillos.html">Tornillos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./tornillos.php">Tornillos</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">Tuercas</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">Láminas</a></li>
                     </ul>
                 </li>
-                <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Proveedores
+                <li class="dropdown active">
+                    <a class="dropdown-toggle active" data-toggle="dropdown" href="#">Proveedores
                         <span class="caret"></span></a>
                     <ul class="dropdown-menu">
                         <li class="nav-item"><a class="nav-link" href="#">Proveedor 1</a></li>
@@ -43,7 +43,8 @@
                         <li class="nav-item"><a class="nav-link" href="#">Proveedor 3</a></li>
                     </ul>
                 </li>
-                <li class="nav-item"><a href="./formulario.html">Contacto</a></li>
+                <li class="nav-item"><a href="./formulario.php">Sugerencias</a></li>
+                <li class="nav-item"><a href="./nosotros.php">Nosotros</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li class="nav-item"><a class="nav-link" href="#"><span class="glyphicon glyphicon-user"></span> Sign
@@ -55,54 +56,16 @@
     </nav>
 
     <div style="text-align:center" class="jumbotron">
-        <h1>HerraTic</h1>
+        <h1>Nuestros proveedores</h1>
         <p>Tu mejor aliado en la compra de maquinaria y herramientas en todo el
             territorio colombiano.</p>
         <i>¡100% colombiano, 100% confiable!</i>
     </div>
 
-    <form class="form-wrapper cf">
-        <input type="text" placeholder="¿Qué estás buscando?" required>
-        <button type="submit">Buscar</button>
-    </form>
-
-    <div class="container">
-        <div class="row">
-            <div class="column">
-                <div class="section">
-                    <h3> ¿Buscas catálogos? </h3>
-                    <p> Accede a la gran cantidad de catálogos ofrecidos por la industria colombiana.</p>
-                </div>
-                <div>
-                    <a href="./catalogo.html"><button type="button" class="btn btn-primary"> Catálogos </button></a>
-                </div>
-            </div>
-            <div class="column">
-                <div class="section">
-                    <h3> ¿Quieres conocer de dónde provienen nuestras herramientas? </h3>
-                    <p> Obtén información sobre quiénes son nuestros proveedores.</p>
-                </div>
-                <div>
-                    <a href="./proveedores.html"><button type="button" class="btn btn-primary"> Proveedores
-                        </button></a>
-                </div>
-            </div>
-            <div class="column">
-                <div class="section">
-                    <h3> ¿Quieres mostrar tu catálogo y hacer parte de nuestra comunidad? </h3>
-                    <p> Contáctanos y conoce acerca de nosotros.</p>
-                </div>
-                <div>
-                    <a href="./formulario.html"><button type="button" class="btn btn-primary"> Contáctanos </button></a>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <footer class="footer">
         <div class="row">
             <div class="column column-footer">
-                <a href="www.facebook.com"><i class="fa fa-facebook-square media-icon" style="font-size:24px"></i></a>
+                <a href="https://www.facebook.com/TooList-101076045164980/?hc_ref=ARRrJU3dUyVDJOdk8Ac2CVbPTnm5qedBF8b1D2_w1anqQN63wjwESzo89OfcdEUVy3c&__xts__[0]=68.ARC1Z1piwB1hui1pNxarwJRNEeJmnd_VVFaVxlUZuEsakGVbyHfQqFWFd7PLgwMEp7Bu9re2yQAIy-3kShIEeYg8dyPclynzX-cTODKLeV0UQwTPdaOjVu-kku8RaIcSXzg9BwTC40GnZ91UcLAxbJQdE6sMO2urtjAe6IlqOU90tzTHE59WoOGmosTBfaoMohBC2RaDrgz2IO1DKcoRu9i3jqPQHSFwtqBTkZRPtfZm_d_yHEjaNWSXW8izrHH10qADCW0--1QKhd-GfJ-Ke4yzKVDSdtN195NtcCnSwed_BCQeYDepc5ZPmVD5GA&__tn__=kC-R"><i class="fa fa-facebook-square media-icon" style="font-size:24px"></i></a>
                 <a href="www.twitter.com"><i class="fa fa-twitter media-icon" style="font-size:24px"></i></a>
                 <a href="www.instagram.com"><i class="fa fa-instagram media-icon" style="font-size:24px"></i></a>
                 <a href="www.google.com"><i class="fa fa-google-plus media-icon" style="font-size:24px"></i></a>
@@ -118,10 +81,11 @@
                 </address>
             </div>
 
-            <div class="column column-footer2">
-                <a class="footer-link" href="./formulario.html">Contacto</a>
-                <a class="footer-link" href="./proveedores.html">Proveedores</a>
+            <div class="column">
+                <a class="footer-link" href="./formulario.php">Sugerencias</a>
+                <a class="footer-link" href="./proveedores.php">Proveedores</a>
                 <a class="footer-link" href="#">Términos y condiciones</a>
+                <a class="footer-link" href="./nosotros.php">Sobre nosotros</a>
             </div>
         </div>
 
