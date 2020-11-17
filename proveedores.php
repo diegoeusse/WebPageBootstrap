@@ -47,10 +47,8 @@
                 <li class="nav-item"><a href="./nosotros.php">Nosotros</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li class="nav-item"><a class="nav-link" href="#"><span class="glyphicon glyphicon-user"></span> Sign
-                        Up</a></li>
-                <li class="nav-item"><a class="nav-link" href="#"><span class="glyphicon glyphicon-log-in"></span>
-                        Login</a></li>
+                <li class="nav-item"><a class="nav-link" href="#"><span class="glyphicon glyphicon-user"></span> Registrarse </a></li>
+                <li class="nav-item"><a class="nav-link" href="#"><span class="glyphicon glyphicon-log-in"></span> Ingresar </a></li>
             </ul>
         </div>
     </nav>
@@ -67,7 +65,7 @@
             <div class="column column-footer">
                 <a href="https://www.facebook.com/TooList-101076045164980/?hc_ref=ARRrJU3dUyVDJOdk8Ac2CVbPTnm5qedBF8b1D2_w1anqQN63wjwESzo89OfcdEUVy3c&__xts__[0]=68.ARC1Z1piwB1hui1pNxarwJRNEeJmnd_VVFaVxlUZuEsakGVbyHfQqFWFd7PLgwMEp7Bu9re2yQAIy-3kShIEeYg8dyPclynzX-cTODKLeV0UQwTPdaOjVu-kku8RaIcSXzg9BwTC40GnZ91UcLAxbJQdE6sMO2urtjAe6IlqOU90tzTHE59WoOGmosTBfaoMohBC2RaDrgz2IO1DKcoRu9i3jqPQHSFwtqBTkZRPtfZm_d_yHEjaNWSXW8izrHH10qADCW0--1QKhd-GfJ-Ke4yzKVDSdtN195NtcCnSwed_BCQeYDepc5ZPmVD5GA&__tn__=kC-R"><i class="fa fa-facebook-square media-icon" style="font-size:24px"></i></a>
                 <a href="www.twitter.com"><i class="fa fa-twitter media-icon" style="font-size:24px"></i></a>
-                <a href="www.instagram.com"><i class="fa fa-instagram media-icon" style="font-size:24px"></i></a>
+                <a href="https://www.instagram.com/toolist.col/"><i class="fa fa-instagram media-icon" style="font-size:24px"></i></a>
                 <a href="www.google.com"><i class="fa fa-google-plus media-icon" style="font-size:24px"></i></a>
             </div>
 
@@ -84,7 +82,7 @@
             <div class="column">
                 <a class="footer-link" href="./formulario.php">Sugerencias</a>
                 <a class="footer-link" href="./proveedores.php">Proveedores</a>
-                <a class="footer-link" href="#">Términos y condiciones</a>
+                <a class="footer-link" href="./seguridad.php">Para tu seguridad</a>
                 <a class="footer-link" href="./nosotros.php">Sobre nosotros</a>
             </div>
         </div>

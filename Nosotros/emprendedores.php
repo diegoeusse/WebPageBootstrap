@@ -9,27 +9,27 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.css">
+    <link rel="stylesheet" href="./../css/main.css">
+    <link rel="stylesheet" href="./../node_modules/open-iconic/font/css/open-iconic-bootstrap.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-    <title>Sobre nosotros</title>
+    <title>Emprendimientos</title>
 </head>
 
 <body>
 
     <nav class="navbar navbar-dark bg-dark navbar-expand-md navbar-inverse navbar-fixed-top">
-        <a class="navbar-brand" href="./index.php">TooList</a>
+        <a class="navbar-brand" href="./../index.php">TooList</a>
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav mr-auto">
-                <li class="nav-item"><a href="./index.php">Inicio</a></li>
+                <li class="nav-item"><a href="./../index.php">Inicio</a></li>
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">Catálogos
                         <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li class="nav-item"><a class="nav-link" href="./tornillos.php">Tornillos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./../tornillos.php">Tornillos</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">Tuercas</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">Láminas</a></li>
                     </ul>
@@ -43,18 +43,18 @@
                         <li class="nav-item"><a class="nav-link" href="#">Proveedor 3</a></li>
                     </ul>
                 </li>
-                <li class="nav-item"><a href="./formulario.php">Sugerencias</a></li>
-                <li class="nav-item active"><a href="./nosotros.php">Nosotros</a></li>
+                <li class="nav-item"><a href="./../formulario.php">Sugerencias</a></li>
+                <li class="nav-item active"><a href="./../nosotros.php">Nosotros</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li class="nav-item"><a class="nav-link" href="./registration/register.php"><span class="glyphicon glyphicon-user"></span> Registrarse </a></li>
-                <li class="nav-item"><a class="nav-link" href="./registration/login.php"><span class="glyphicon glyphicon-log-in"></span> Ingresar </a></li>
+                <li class="nav-item"><a class="nav-link" href="./../registration/register.php"><span class="glyphicon glyphicon-user"></span> Registrarse </a></li>
+                <li class="nav-item"><a class="nav-link" href="./../registration/login.php"><span class="glyphicon glyphicon-log-in"></span> Ingresar </a></li>
             </ul>
         </div>
     </nav>
 
     <div style="text-align:center" class="jumbotron">
-        <h1>Sobre nosotros</h1>
+        <h1>Ventajas de Emprendimientos</h1>
         <p>Tu mejor aliado en la compra de maquinaria y herramientas en todo el
             territorio colombiano.</p>
         <i>¡100% colombiano, 100% confiable!</i>
@@ -63,48 +63,36 @@
     <div class="row">
         <div class="card column">
             <div class="card-body">
-                <h4 class="card-title">¿Quiénes somos?</h4>
-                <img class="img-card-bot" src="./Imágenes/Logo.png" alt="TooList logo"
-                    style="width:200px;height:150px;">
-            </div>
-            <div>
-                <a href="./Nosotros/conocenos.php"><button type="button" class="btn btn-primary"> Conócenos </button></a>
+                <img class="img-card-bot" src="./../Imágenes/Emprendedor.png" alt="Emprendedores logo"
+                    style="width:400px;height:350px;">
             </div>
         </div>
         <div class="card column">
             <div class="card-body">
-                <h4 class="card-title">¿Eres comprador?</h4>
-                <img class="img-card-bot" src="Imágenes/Comprador.png" alt="Comprador logo" style="width:200px;height:150px;">
-            </div>
-            <div>
-                <a href="./Nosotros/comerciantes.php"><button type="button" class="btn btn-primary"> Conoce tus ventajas </button></a>
+
+                <h4 class="card-title">¿Qué ventajas tengo como emprendedor?</h4><br>
+
+                <p class="card-text" style="text-align:justify">Por medio de nuestra página no sólo apoyas el comercio y la economía nacional, sino que también:</p><br>
+                
+                <p class="card-text" style="text-align:justify"><li style="text-align:left"> Tienes acceso a variedad de catálogos en todo el territorio colombiano, todos en un mismo sitio. Ahorras tiempo al no tener que buscar por todo el internet.</li></p>
+
+                <p class="card-text" style="text-align:justify"><li style="text-align:left"> Nuestros proveedores ofrecen precios favorables para sus ventas online, incluso por debajo de los precios de venta al público.</li></p>
+
+                <p class="card-text" style="text-align:justify"><li style="text-align:left"> Encuentras información verídica y comercial, que puedes usar en todos tus proyectos e investigaciones.</li></p>
+
+                <p class="card-text" style="text-align:justify"><li style="text-align:left"> Cuentas con asesoría técnica a la hora de realizar una selección y/o compra de algún elemento de nuestra página.</li></p>
+
+                <p class="card-text" style="text-align:justify"><li style="text-align:left"> Encuentras personas y comunidades que pueden estar interesadas en los mismos productos que tú y puedes formar alianzas para conseguir beneficios y mejores precios.</li></p><br>
+
+                <p class="card-text" style="text-align:justify"> Haz parte de esta comunidad y entérate de todo lo que tenemos para ti.</p><br>
+                
+                <div>
+                    <a href="./../registration/register.php"><button type="button" class="btn"> Quiero registrarme </button></a>
+                </div>
+                
             </div>
         </div>
     </div>
-
-    <div class="row">
-        <div class="card column">
-            <div class="card-body">
-                <h4 class="card-title">¿Eres empresario?</h4>
-                <img class="img-card-bot" src="Imágenes/Empresario.png" alt="Empresario Logo"
-                    style="width:200px;height:150px;">
-            </div>
-            <div>
-                <a href="./Nosotros/empresarios.php"><button type="button" class="btn btn-primary">  Conoce tus ventajas </button></a>
-            </div>
-        </div>
-        <div class="card column">
-            <div class="card-body">
-                <h4 class="card-title">¿Tienes un emprendimiento?</h4>
-                <img class="img-card-bot" src="Imágenes/Emprendedor.png" alt="Emprendedor logo" style="width:200px;height:150px;">
-            </div>
-            <div>
-                <a href="./Nosotros/emprendedores.php"><button type="button" class="btn btn-primary"> Conoce tus ventajas </button></a>
-            </div>
-        </div>
-    </div>
-
-
 
     <footer class="footer">
         <div class="row">
@@ -126,10 +114,10 @@
             </div>
 
             <div class="column">
-                <a class="footer-link" href="./formulario.php">Sugerencias</a>
-                <a class="footer-link" href="./proveedores.php">Proveedores</a>
-                <a class="footer-link" href="./seguridad.php">Para tu seguridad</a>
-                <a class="footer-link" href="./nosotros.php">Sobre nosotros</a>
+                <a class="footer-link" href="./../formulario.php">Sugerencias</a>
+                <a class="footer-link" href="./../proveedores.php">Proveedores</a>
+                <a class="footer-link" href="./../seguridad.php">Para tu seguridad</a>
+                <a class="footer-link" href="./../nosotros.php">Sobre nosotros</a>
             </div>
         </div>
 

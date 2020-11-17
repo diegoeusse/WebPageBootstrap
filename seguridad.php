@@ -9,13 +9,13 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./node_modules/open-iconic/font/css/open-iconic-bootstrap.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-    <title>Sugerencias</title>
+    <title>Para tu seguridad</title>
 </head>
 
 <body>
@@ -43,7 +43,7 @@
                         <li class="nav-item"><a class="nav-link" href="#">Proveedor 3</a></li>
                     </ul>
                 </li>
-                <li class="nav-item active"><a href="./formulario.php">Sugerencias</a></li>
+                <li class="nav-item"><a href="./formulario.php">Sugerencias</a></li>
                 <li class="nav-item"><a href="./nosotros.php">Nosotros</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
@@ -54,97 +54,40 @@
     </nav>
 
     <div style="text-align:center" class="jumbotron">
-        <h1>TooList</h1>
+        <h1>Para tu seguridad</h1>
         <p>Tu mejor aliado en la compra de maquinaria y herramientas en todo el
             territorio colombiano.</p>
         <i>¡100% colombiano, 100% confiable!</i>
     </div>
 
-    <div class="container">
-        <h2>¡Déjanos tus datos y te contactaremos!</h2>
-        <form>
-            <div class="form-row">
-                <div class="form-group col-sm-6">
-                    <label for="nombre">Nombres</label>
-                    <input type="text" class="form-control" name="nombre" placeholder="Ingrese su nombre">
-                </div>
-                <div class="form-group col-sm-6">
-                    <label for="apellido">Apellidos</label>
-                    <input type="text" class="form-control" name="apellido" placeholder="Ingrese su apellido">
-                </div>
+    <div class="row">
+        <div class="card column">
+            <div class="card-body">
+                <img class="img-card-bot" src="./Imágenes/Seguridad.png" alt="TooList logo"
+                    style="width:400px;height:350px;">
             </div>
-            <div class="form-row">
-                <div class="form-group col-sm-6">
-                    <label for="email">Email</label>
-                    <input type="text" class="form-control" name="email" placeholder="Ingrese su e-mail">
-                </div>
-                <div class="form-group col-sm-6">
-                    <label for="direccion">Dirección</label>
-                    <input type="text" class="form-control" name="direccion" placeholder="Ingrese su direccion">
-                </div>
-            </div>
-            <div class="form-row">
-                <div class="form-group col-sm-3">
-                    <label for="departamento">Departamento</label>
-                    <select id="departamento" class="form-control">
-                        <option selected>Escoge tu departamento</option>
-                        <option>Amazonas</option>
-                        <option>Antioquia</option>
-                        <option>Arauca</option>
-                        <option>Atlántico</option>
-                        <option>Bolívar</option>
-                        <option>Boyacá</option>
-                        <option>Caldas</option>
-                        <option>Caquetá</option>
-                        <option>Casanare</option>
-                        <option>Cauca</option>
-                        <option>Cesar</option>
-                        <option>Chocó</option>
-                        <option>Córdoba</option>
-                        <option>Cundinamarca</option>
-                        <option>Guainía</option>
-                        <option>Guajira</option>
-                        <option>Guaviare</option>
-                        <option>Huila</option>
-                        <option>Magdalena</option>
-                        <option>Meta</option>
-                        <option>Norte De Santander</option>
-                        <option>Nariño</option>
-                        <option>Putumayo</option>
-                        <option>Quindío</option>
-                        <option>Risaralda</option>
-                        <option>San Andrés</option>
-                        <option>Santander</option>
-                        <option>Sucre</option>
-                        <option>Tolima</option>
-                        <option>Valle Del Cauca</option>
-                        <option>Vaupés</option>
-                        <option>Vichada</option>
-                    </select>
-                </div>
-                <div class="form-group col-sm-3">
-                    <label for="direccion">Municipio</label>
-                    <input type="text" class="form-control" name="municipio" placeholder="Ingrese su municipio">
-                    </select>
+        </div>
+        <div class="card column">
+            <div class="card-body">
+                <p class="card-text" style="text-align:justify" >Somos un emprendimiento colombiano que busca facilitar la compra de maquinaria 
+                y herramientas en el territorio nacional. Para ello, buscamos generar una comunicación directa entre los proveedores y los clientes, 
+                mediante la visualización de catálogos y formularios que permiten la interacción de ambas partes.
+                 </p><br>
 
-                </div>
-                <div class="form-group col-sm-6">
-                    <label for="asunto">Escribe un asunto</label>
-                    <input type="text" class="form-control" name="asunto" placeholder="Ingrese un asunto">
-                </div>
+                <h4 class="card-title">¿Por qué comprar en el mercado local?</h4><br>
+
+                <p class="card-text" style="text-align:justify">Nuestra más grande motivación es incentivar el mercado nacional, pues creemos en la 
+                calidad y el servicio que ofrecen todos nuestros proveedores. Queremos invitarte, de manera muy especial, a hacer parte de este pensamiento.</p><br>
+                
+                <p class="card-text" style="text-align:justify">Comprar local debe ir más allá del principio de solidaridad regional, debe ser un principio de identidad, de pertenencia, de darle reconocimiento y valor al emprendimiento, 
+                a la creatividad, a estos productos auténticos que representan nuestra cultura, es contribuir al desarrollo y dinamización de la economía en la región, generando ingresos que 
+                circularán en el entorno local, generando empleo, bienestar, prosperidad y calidad de vida.</p><br>
+
+                <p class="card-text" style="text-align:justify">Es en momentos como este donde nuestra economía más requiere de nuestro apoyo.</p><br>                
+                </p>
+                
             </div>
-            <div class="form-group col-sm-12">
-                <label for="comentarios">¿Tienes algún comentario?</label>
-                <textarea name="message" class="form-control" placeholder="Escribe un comentario" rows="10"></textarea>
-            </div>
-            <div class="form-group">
-                <div class="form-check">
-                    <input type="checkbox" class="form-check-input" id="gridCheck">
-                    <label for="gridCheck" class="form-check-label">Quiero que me contacten</label>
-                </div>
-            </div>
-            <button type="submit" class="btn btn-outline-primary">Enviar</button>
-        </form>
+        </div>
     </div>
 
     <footer class="footer">
