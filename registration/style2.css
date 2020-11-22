@@ -2,10 +2,43 @@
     margin: 0px;
     padding: 0px;
   }
+  
+  @import url(https://fonts.googleapis.com/css?family=Open+Sans);
   body {
     font-size: 120%;
-    background: #F8F8FF;
+    background: #555 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAB9JREFUeNpi/P//PwM6YGLAAuCCmpqacC2MRGsHCDAA+fIHfeQbO8kAAAAASUVORK5CYII=);
+    font: 13px 'Lucida sans', Arial, Helvetica;
+    color: #eee;
+    text-align: center;
   }
+
+  .jumbotron{
+    background-color: orange;
+    color: black;
+  }
+
+  .btn{
+    background-color:green;
+    border-color: green;
+    color: white;
+    width:60%;
+    position: center;
+    left: 0;
+    margin-top: auto;
+    text-align: center;
+  }
+
+  .btn:hover {
+  background-color: orange; 
+  border-color:orange;
+  color: white;
+  }
+
+  .btn:focus{
+    background-color: green;
+    border-color: green;
+  }
+
   
   .header {
     width: 30%;
@@ -69,4 +102,14 @@
     background: #dff0d8; 
     border: 1px solid #3c763d;
     margin-bottom: 20px;
+  }
+
+  .footer{
+    color: black;
+    padding: 2px 2px 2px 2px;
+    background-color: orange;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    text-align: center;
+    display: flex;
   }

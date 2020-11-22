@@ -55,7 +55,9 @@
     </nav>
 
     <div style="text-align:center" class="jumbotron">
-        <h1>Catálogos de tornillos</h1>
+        <h1>Catálogos de tornillos
+            <span><img class="img-card-bot" src="Imágenes/Colombia.png" alt="Imporcol logo" style="width:100x;height:50px;"></span>
+        </h1>
         <img src="./Imágenes/Tornillos.png" alt="Tornillos" class="img-fluid" style="width:250px;height:150px;">
         <p>Tu mejor aliado en la compra de maquinaria y herramientas en todo el
             territorio colombiano.</p>

@@ -46,27 +46,36 @@
             </ul>
         </div>
 	</nav>
+
+    <div style="text-align:center" class="jumbotron">
+        <h1>Bienvenido a TooList
+            <span><img class="img-card-bot" src="./../Imágenes/Colombia.png" alt="Colombia Flag" style="width:100x;height:50px;"></span>
+        </h1>
+        <p>Tu mejor aliado en la compra de maquinaria y herramientas en todo el
+            territorio colombiano.</p>
+        <i>¡Regístrate o inicia sesión para acceder a todos nuestros catálogos!</i>
+    </div>
 	
-  <div class="header">
-  	<h2>Iniciar sesión</h2>
-  </div>
+    <div class="header">
+        <h2>Iniciar sesión</h2>
+    </div>
 	 
-  <form method="post" action="login.php">
-  	<?php include('errors.php'); ?>
-  	<div class="input-group">
-  		<label>Nombre de usuario</label>
-  		<input type="text" name="username" >
-  	</div>
-  	<div class="input-group">
-  		<label>Contraseña</label>
-  		<input type="password" name="password">
-  	</div>
-  	<div class="input-group">
-  		<button type="submit" class="register-btn" name="login_user">Iniciar sesión</button>
-  	</div>
-  	<p>
-  		¿Aún no tienes una cuenta? <a href="register.php">Regístrate</a>
-  	</p>
+    <form method="post" action="login.php">
+        <?php include('errors.php'); ?>
+        <div class="input-group">
+            <label>Nombre de usuario</label>
+            <input type="text" name="username" >
+        </div>
+        <div class="input-group">
+            <label>Contraseña</label>
+            <input type="password" name="password">
+        </div>
+        <div class="input-group">
+            <button type="submit" class="register-btn" name="login_user">Iniciar sesión</button>
+        </div>
+        <p>
+            ¿Aún no tienes una cuenta? <a href="register.php">Regístrate</a>
+        </p>
   </form>
 
   <footer class="footer">

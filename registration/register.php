@@ -46,35 +46,45 @@
         </div>
     </nav>
 
-  <div class="header">
-  	<h2>Regístrate</h2>
-  </div>
-	
-  <form method="post" action="register.php">
-  	<?php include('errors.php'); ?>
-  	<div class="input-group">
-  	  <label>Nombre de usuario</label>
-  	  <input type="text" name="username" value="<?php echo $username; ?>">
-  	</div>
-  	<div class="input-group">
-  	  <label>E-mail</label>
-  	  <input type="email" name="email" value="<?php echo $email; ?>">
-  	</div>
-  	<div class="input-group">
-  	  <label>Contraseña</label>
-  	  <input type="password" name="password_1">
-  	</div>
-  	<div class="input-group">
-  	  <label>Confirma tu contraseña</label>
-  	  <input type="password" name="password_2">
-  	</div>
-  	<div class="input-group">
-  	  <button type="submit" class="register-btn" name="reg_user">Registrarse</button>
-  	</div>
-  	<p>
-  		¿Ya tienes una cuenta? <a href="login.php">Inicia sesión</a>
-  	</p>
-  </form>
+    <div style="text-align:center" class="jumbotron">
+        <h1>Bienvenido a TooList
+            <span><img class="img-card-bot" src="./../Imágenes/Colombia.png" alt="Colombia flag" style="width:100x;height:50px;"></span>
+        </h1>
+        <p>Tu mejor aliado en la compra de maquinaria y herramientas en todo el
+            territorio colombiano.</p>
+        <i>¡Regístrate o inicia sesión para acceder a todos nuestros catálogos!</i>
+    </div>
+
+
+    <div class="header">
+        <h2>Regístrate</h2>
+    </div>
+        
+    <form method="post" action="register.php">
+        <?php include('errors.php'); ?>
+        <div class="input-group">
+        <label>Nombre de usuario</label>
+        <input type="text" name="username" value="<?php echo $username; ?>">
+        </div>
+        <div class="input-group">
+        <label>E-mail</label>
+        <input type="email" name="email" value="<?php echo $email; ?>">
+        </div>
+        <div class="input-group">
+        <label>Contraseña</label>
+        <input type="password" name="password_1">
+        </div>
+        <div class="input-group">
+        <label>Confirma tu contraseña</label>
+        <input type="password" name="password_2">
+        </div>
+        <div class="input-group">
+        <button type="submit" class="register-btn" name="reg_user">Registrarse</button>
+        </div>
+        <p>
+            ¿Ya tienes una cuenta? <a href="login.php">Inicia sesión</a>
+        </p>
+    </form>
 
   <footer class="footer">
         <div class="row">

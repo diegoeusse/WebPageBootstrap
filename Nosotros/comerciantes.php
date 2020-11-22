@@ -54,7 +54,9 @@
     </nav>
 
     <div style="text-align:center" class="jumbotron">
-        <h1>Ventajas de compradores</h1>
+        <h1>Ventajas de compradores
+            <span><img class="img-card-bot" src="./../Imágenes/Colombia.png" alt="Colombia flag" style="width:100x;height:50px;"></span>
+        </h1>
         <p>Tu mejor aliado en la compra de maquinaria y herramientas en todo el
             territorio colombiano.</p>
         <i>¡100% colombiano, 100% confiable!</i>
