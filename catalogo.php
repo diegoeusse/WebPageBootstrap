@@ -57,7 +57,7 @@
 
     <div style="text-align:center" class="jumbotron">
         <h1>Nuestros catálogos
-            <span><img class="img-card-bot" src="Imágenes/Colombia.png" alt="Imporcol logo" style="width:100x;height:50px;"></span>
+            <span><img class="img-card-bot" src="Imágenes/Colombia.png" alt="Colombia Flag" style="width:100x;height:50px;"></span>
         </h1>
         <p>Tu mejor aliado en la compra de maquinaria y herramientas en todo el
             territorio colombiano.</p>
